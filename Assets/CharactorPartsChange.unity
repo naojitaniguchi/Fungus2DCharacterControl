@@ -244,6 +244,7 @@ GameObject:
   - component: {fileID: 796770752}
   - component: {fileID: 796770751}
   - component: {fileID: 796770750}
+  - component: {fileID: 796770764}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -278,7 +279,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 796770734}
   selectedCommands:
-  - {fileID: 796770750}
+  - {fileID: 796770764}
   variables: []
   description: 
   stepPause: 0
@@ -369,6 +370,7 @@ MonoBehaviour:
   - {fileID: 796770752}
   - {fileID: 796770751}
   - {fileID: 796770750}
+  - {fileID: 796770764}
 --- !u!114 &796770735
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -959,6 +961,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &796770764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 796770731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 29
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Test
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!212 &1255432282 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 212000014194856184, guid: af2c9da8efd42f14ba5b1834604ab577,
